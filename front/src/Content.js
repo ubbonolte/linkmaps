@@ -1,5 +1,6 @@
 import React from 'react';
 import {Container} from "react-bootstrap";
+import Graph from "./Graph";
 
 class Content extends React.Component {
   constructor(props){
@@ -8,8 +9,8 @@ class Content extends React.Component {
 
   render(){
     let content = (
-        <Container fluid className="h-100 bg-info">
-          "asdasdasdasd"
+        <Container fluid className="vh-100 bg-white">
+          <Graph/>
         </Container>
     )
 
