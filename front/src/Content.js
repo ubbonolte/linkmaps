@@ -9,7 +9,7 @@ class Content extends React.Component {
 
   render(){
     let content = (
-        <Container fluid className="vh-100 bg-white">
+        <Container fluid className="vh-100 bg-dark">
           <Graph/>
         </Container>
     )
